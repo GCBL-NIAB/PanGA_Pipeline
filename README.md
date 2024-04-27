@@ -32,3 +32,15 @@
 
 
 ## File input format
+<br/>
+
+> [!WARNING]
+> The file name must be in *_R1.fastq  and  *_R2.fastq format
+
+
+
+
+
+
+
+
