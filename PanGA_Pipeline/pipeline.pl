@@ -82,7 +82,7 @@ print "sed \'s\/\#//g\' zerohit_id.txt > zero_hit.txt\n";
 print "cat zero_hit.txt chordata_id.txt > final_contig_id.txt\n";
 print "perl $pipeline_path/fasta_extract.pl final_contig_id.txt contigs.fa > final_contig.fa\n";
 print "cd $cdhit_pat\n";
-print "cat $path/out/$base_name/blast/final_contig.fa > cd_hit_input.fa";
+print "cat $path/out/$base_name/blast/final_contig.fa > cd_hit_input.fa\n";
 print "cd-hit-est -i cd_hit_input.fa -o cd_hit_out.fa -T 10 -aS 0.8 -g 1 -c 0.9 -M 0\n";
 print "perl $pipeline_path/fasta_header_rename.pl cd_hit_out.fa > NRNS.fa\n";
 }
