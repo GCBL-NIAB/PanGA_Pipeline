@@ -29,3 +29,6 @@
 <br/>
 
 > cd PanGA_Pipeline
+
+
+## File input format
